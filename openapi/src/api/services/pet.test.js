@@ -12,3 +12,12 @@ it("should 200", async ()=> {
         data: "addPet ok!"
     });
 });
+
+it("should 200", async ()=> {
+    let result = await pet.addPet();
+    
+    expect(result).toStrictEqual({
+        status: 200,
+        data: "addPet ok!"
+    });
+});
