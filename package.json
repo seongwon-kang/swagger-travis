@@ -1,0 +1,23 @@
+{
+  "name": "swagger-travis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "node api_gen.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seongwon-kang/swagger-travis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seongwon-kang/swagger-travis/issues"
+  },
+  "homepage": "https://github.com/seongwon-kang/swagger-travis#readme",
+  "dependencies": {
+    "swagger-node-codegen": "^1.6.3"
+  }
+}
